@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+}
+
+.main {
+  background: radial-gradient(circle at center, #2a2a2a, #111);
+  width: 90%;
+  max-width: 900px;
+  margin-top: 40px;
+  padding: 60px 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.gradient-text {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(90deg,
+    #ff6ec4 0%,
+    #ffa94d 20%,
+    #f6ff69 40%,
+    #3ef35e 60%,
+    #52e0ff 80%,
+    #c074ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subheadline {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #1a1a2e;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.card h2 {
+  font-size: 18px;
+  color: #00e0ff;
+}
+
+.homework {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.netflix {
+  background: #e50914;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.netflix::before {
+  content: "N";
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+}
+
+.typed {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
